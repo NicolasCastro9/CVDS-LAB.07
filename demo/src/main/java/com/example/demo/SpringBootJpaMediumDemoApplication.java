@@ -9,13 +9,13 @@ import com.example.demo.service.EmployeeService;
 import org.springframework.beans.factory.annotation.*;
 
 @SpringBootApplication
-public class DemoApplication {
+public class SpringBootJpaMediumDemoApplication {
 
 	@Autowired
 	EmployeeService employeeService;
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(SpringBootJpaMediumDemoApplication.class, args);
 	}
 
 	@Bean
